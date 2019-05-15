@@ -1,5 +1,7 @@
 package com.design.structure.flyweight;
 
+import java.util.HashMap;
+
 public class ShapeFactory {
 
     private static final HashMap<String, Shape> circleMap = new HashMap<>();
